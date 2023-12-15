@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function MixtapeProvider({children, songs}) {
+export default function MixtapeProvider({children, songs, genre, setGenre, sortOrder, setSortOrder}) {
 
     const [genre, setGenre] = useState("tous");
     const [sortOrder, setSortOrder] = useState("ascending");
