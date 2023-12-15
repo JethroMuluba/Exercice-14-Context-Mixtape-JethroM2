@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 export default function mixtapeContext() {
-  return (
-    <div>mixtapeContext</div>
-  )
+
+    const mixtapeContext = useContext(mixtapeContext);
+
+    return (
+        <div>
+            
+        </div>
+
+    )
 }
